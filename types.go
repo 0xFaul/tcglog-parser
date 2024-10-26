@@ -65,7 +65,7 @@ func (e EventType) String() string {
 	case EventTypeEFIRuntimeServicesDriver:
 		return "EV_EFI_RUNTIME_SERVICES_DRIVER"
 	case EventTypeEFIGPTEvent:
-		return "EF_EFI_GPT_EVENT"
+		return "EV_EFI_GPT_EVENT"
 	case EventTypeEFIAction:
 		return "EV_EFI_ACTION"
 	case EventTypeEFIPlatformFirmwareBlob:
